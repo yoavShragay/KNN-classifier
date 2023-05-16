@@ -29,8 +29,9 @@ Next, we run the client with the command `./client.out ip port`
 - port is the same port used by the server
 
 Finally, after the connection has been made, the client prints to the screen options received from the server.    
-Each option works as described on the assignment page, and in the description of the functions in the code.  
-
+Each option works as described on the assignment page, and in the description of the functions in the code.
+For your convenience, there are two files, 'wine' and 'beans,' that contain classified and unclassified data.
+  
 ### Implementation
 We will use a design pattern called `Command`, where each command in our software has its own class of type Command.  
 The Command class can define anything relevant to all commands in our system,
@@ -53,5 +54,5 @@ the server must return only invalid input to the client and continue receiving
 the following information from that customer.
 
 ### Authors
-- Roy Amit
 - Yoav Shragay
+- Roy Amit
